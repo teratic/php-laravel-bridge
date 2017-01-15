@@ -11,6 +11,11 @@
 PHP Laravel Bidge are a set of clasess to make easy to use Laravel 5 
 components outside of Laravel framework.
 
+## TODO
+
+- [ ] Make tests work on Laravel <5.3.x.
+- [ ] Add examples.
+
 ## Requirements
 
 Laravel Bridge requires PHP 5.4+.
