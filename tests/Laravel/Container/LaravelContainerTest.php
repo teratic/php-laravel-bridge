@@ -96,7 +96,7 @@ class LaravelContainerTest extends TestCase
     public function testParametersCanOverrideDependencies()
     {
         $container = new Container;
-        $stub = new ContainerDependentStub($mock = $this->createMock('IContainerContractStub'));
+        $stub = new ContainerDependentStub($mock = $this->getMockBuilder('IContainerContractStub')->getMock());
         $resolved = $container->make('ContainerNestedDependentStub', [$stub]);
         $this->assertInstanceOf('ContainerNestedDependentStub', $resolved);
         $this->assertEquals($mock, $resolved->inner->impl);
