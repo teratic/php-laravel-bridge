@@ -26,7 +26,7 @@ use TTIC\Laravel\Bridge\Container\Container;
  *
  * The code was taken from laravel/framework due that is not published
  * on composer and the tests can't be overridden easy.
- * https://github.com/laravel/framework/blob/5.3/tests/Events/EventsDispatcherTest.php
+ * https://github.com/laravel/framework/blob/5.3/tests/Container/ContainerTest.php
  *
  * @covers \TTIC\Laravel\Bridge\Container\Container
  */

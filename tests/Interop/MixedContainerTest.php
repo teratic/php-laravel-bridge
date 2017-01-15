@@ -28,10 +28,6 @@ use TTIC\Laravel\Bridge\Container\Container as LaravelContainer;
  * Mixed Container Tests to ensure that Container implements
  * ContainerInterface and support delegation to other containers.
  *
- * The code was taken from laravel/framework due that is not published
- * on composer and the tests can't be overridden easy.
- * https://github.com/laravel/framework/blob/5.3/tests/Events/EventsDispatcherTest.php
- *
  * @covers \TTIC\Laravel\Bridge\Container\Container
  * @covers \TTIC\Interop\Pimple\Container
  */
