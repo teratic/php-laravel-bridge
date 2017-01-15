@@ -1,0 +1,39 @@
+{
+    "name": "teratic/laravel-bridge",
+    "description": "Bridge classes to use Laravel components outside of a Laravel application",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcos Lois Bermúdez",
+            "email": "marcos.lois@teratic.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/event-dispatcher": "^3.0",
+        "illuminate/events": "^5.0",
+        "container-interop/container-interop": "^1.1"
+    },
+    "require-dev": {
+        "illuminate/queue": "^5.0",
+        "phpunit/phpunit": "^4.0|^5.0",
+        "mockery/mockery": "^0.9.7",
+        "scrutinizer/ocular": "^1.1",
+        "squizlabs/php_codesniffer": "^2.2",
+        "pimple/pimple": "^3.0",
+        "illuminate/broadcasting": "^5.3"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "TTIC\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TTIC\\Test\\": "tests"
+        }
+    }
+}
